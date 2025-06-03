@@ -2,7 +2,7 @@
 // https://leetcode.com/problems/valid-parentheses/
 
 class Solution {
-    func isBalanced(_ s: String) -> Bool {
+    func isValid(_ s: String) -> Bool {
         var stack: Array<Character> = []
         let closeToOpen: [Character: Character] = [")": "(", "]": "[", "}":"{"]
         for c in s {

@@ -1,3 +1,6 @@
+#leetcode link:
+# https://leetcode.com/problems/valid-palindrome/
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         l,r = 0, len(s)-1
